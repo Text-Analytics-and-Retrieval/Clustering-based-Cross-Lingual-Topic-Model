@@ -131,3 +131,9 @@ cython_debug/
 
 # Ignore VSCode settings
 .vscode/
+
+# Ignore data files
+data/
+embed/
+model/
+eval_data/

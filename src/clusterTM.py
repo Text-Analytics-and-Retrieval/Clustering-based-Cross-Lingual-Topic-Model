@@ -166,11 +166,11 @@ class ClusterTM:
             "python",
             "CNPMI.py",
             "--topics1",
-            f"../llm_cluster/{str(lang1_path)}",
+            f"{str(lang1_path)}",
             "--topics2",
-            f"../llm_cluster/{str(lang2_path)}",
+            f"{str(lang2_path)}",
             "--ref_corpus_config",
-            f"./configs/ref_corpus/en_{lang2}.yaml",
+            f"CNPMI/configs/ref_corpus/en_{lang2}.yaml",
         ]
 
         # 執行命令，並捕獲輸出
@@ -179,7 +179,7 @@ class ClusterTM:
                 command,
                 check=True,
                 shell=False,
-                cwd="../CNPMI",
+                cwd="CNPMI",
                 stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE,
                 text=True,
