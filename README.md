@@ -1,4 +1,4 @@
-# SVD-Clustering-Topic-Model
+# Clustering-based-Cross-Lingual-Topic-Model
 This is the implementation of the paper "Refining Dimensions for Improving Clustering-based Cross-lingual Topic Models". This repository contains the code for the u-SVD, SVD-LR and the evaluation  on three datasets: Airiti, ECNews, and Rakuten.
 
 ## 1 Install
