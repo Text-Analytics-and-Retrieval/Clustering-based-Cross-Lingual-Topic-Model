@@ -166,11 +166,11 @@ class ClusterTM:
             "python",
             "CNPMI.py",
             "--topics1",
-            f"{str(lang1_path)}",
+            f"../{str(lang1_path)}",
             "--topics2",
-            f"{str(lang2_path)}",
+            f"../{str(lang2_path)}",
             "--ref_corpus_config",
-            f"CNPMI/configs/ref_corpus/en_{lang2}.yaml",
+            f"configs/ref_corpus/en_{lang2}.yaml",
         ]
 
         # 執行命令，並捕獲輸出

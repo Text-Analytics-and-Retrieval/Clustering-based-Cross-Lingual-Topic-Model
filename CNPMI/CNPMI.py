@@ -5,7 +5,7 @@ from multiprocessing import Pool
 import argparse
 from sklearn.feature_extraction.text import CountVectorizer
 
-import CNPMI.file_utils as file_utils
+import file_utils
 
 
 wc_lock = threading.Lock()
