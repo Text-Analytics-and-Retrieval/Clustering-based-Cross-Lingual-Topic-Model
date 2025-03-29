@@ -39,7 +39,7 @@ LANG_INDEX, LABEL = pd.factorize(LANG_LABELS)
 print(
     f"==================== start preprocess {args.embed_model_name} ==================== "
 )
-centering(args.embed_path, args.embed_save_dir, args.embed_model_name, LANG_INDEX)
+# centering(args.embed_path, args.embed_save_dir, args.embed_model_name, LANG_INDEX)
 SVD_process(args.embed_path, args.embed_save_dir, args.embed_model_name)
 EMBED_SCALE_PATH = f"{args.embed_save_dir}/embed_{args.embed_model_name}_scale.npy"
 lang_dim_remove(

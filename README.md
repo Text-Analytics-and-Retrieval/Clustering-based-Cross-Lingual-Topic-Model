@@ -81,5 +81,23 @@ python main.py \
 ## 📚 Citation
 If you find our work useful, please consider citing our work:
 ```
-TBD
+@inproceedings{chang-etal-2025-refining,
+    title = "Refining Dimensions for Improving Clustering-based Cross-lingual Topic Models",
+    author = "Chang, Chia-Hsuan  and
+      Huang, Tien Yuan  and
+      Tsai, Yi-Hang  and
+      Chang, Chia-Ming  and
+      Hwang, San-Yih",
+    editor = "Sharoff, Serge  and
+      Terryn, Ayla Rigouts  and
+      Zweigenbaum, Pierre  and
+      Rapp, Reinhard",
+    booktitle = "Proceedings of the 18th Workshop on Building and Using Comparable Corpora (BUCC)",
+    month = jan,
+    year = "2025",
+    address = "Abu Dhabi, UAE",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.bucc-1.6/",
+    pages = "46--56",
+}
 ```
